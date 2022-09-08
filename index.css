@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: chartreuse;
+}
+.heading{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+i{
+    cursor: pointer;
+}
+.cart{
+    position: relative;
+    background-color: yellow;
+    color: #212529;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 4px;
+}
+.cartAmount {   
+    position: absolute;
+    top: -15px;
+    left: 20px;
+}
+.container{
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: fuchsia;
+    width: 23%;
+    box-shadow: 0 0 3px pink;
+    text-align: center;
+    padding: 1.5em;
+    margin-bottom: 2em;
+}
+.product-image{
+    width: 100%;
+}
+.title{
+    font-size: 1.3rem;
+}
+.category,.price{
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 1em;
+    font-size: 1.2rem;
+}
+.buttons{
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    font-size: 16px;
+}
+.price-quantity{
+    justify-content: space-between;
+    align-items: center;
+
+}
+
